@@ -295,21 +295,23 @@ Full-Width Styles
 
 #topcontrol {
 	position: fixed;
-	bottom: .5em;
-	right: .5em;
+	bottom: .7em;
+	right: .7em;
 	opacity: 0.7;
 	cursor: pointer;
-    background: #333;
-    box-shadow: 0 0 10px rgba(0,0,0,.5);
-    border-radius: 1em;
-    -moz-border-radius: 1em;
-    -webkit-border-radius: 1em;
     width:1em;
     height:1em;
 }
 
 #topcontrol a {
 	color:#fff;
+}
+
+#topcontrol img {
+    width:1em;
+    height:1em;
+    margin:0;
+    padding:0;
 }
 
 
@@ -326,15 +328,19 @@ ul.horizontal li {
 	margin-top:2em;
 }
 
+.screenshot img {
+ width:30%;
+ border:1px solid black;
+}
+
 .screencast img {
 	height:10em;
-	border: 10px solid black;
+	border: 1px solid black;
 	margin:0;
 	padding:0;
-    border-radius: 6px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    
+}    
+
+.screenshot img, .screencast img {
     box-shadow:  2px 2px 5px 2px rgba(0, 0, 0, .5);
     -webkit-box-shadow:  2px 2px 5px 2px rgba(0, 0, 0, .5);
     -moz-box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .5);

@@ -3,7 +3,10 @@ console.log('This would be the main JS file.');
 
 $(document).ready(function() {
 
-	/* Using custom settings */
+	$("a.various").fancybox({
+		'hideOnContentClick': true
+	});
+	
 	
 	$("a.screencast").fancybox({
 		'hideOnContentClick': false
