@@ -79,9 +79,8 @@ h1 {
 }
 
 h2 {
-  padding-bottom: 10px;
+  /*padding-bottom: 10px;*/
   font-size: 32px;
-  background: url('../images/bg_hr.png') repeat-x bottom;
 }
 
 h3 {
@@ -110,7 +109,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color: #555;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -125,7 +124,7 @@ a {
   -ms-transition: text-shadow 0.5s ease;
 }
 
-#main_content a:hover {
+.main_content a:hover {
   color: #0069ba;
   text-shadow: #0090ff 0px 0px 2px;
 }
@@ -149,8 +148,10 @@ img {
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
+}
 
+.img {
+  border: 1px solid #ebebeb;
   box-shadow: 0 0 5px #ebebeb;
   -webkit-box-shadow: 0 0 5px #ebebeb;
   -moz-box-shadow: 0 0 5px #ebebeb;
@@ -166,25 +167,22 @@ pre, code {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 14px;
 
-  border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-
-
-
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
 }
 
 pre {
   width: 100%;
   padding: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
   overflow: auto;
 }
 
 code {
   padding: 3px;
   margin: 0 3px;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
 }
 
 pre code {
@@ -285,12 +283,42 @@ Full-Width Styles
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  background: url('../images/tubav.png') #f09030 no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
+
+#topcontrol {
+	position: fixed;
+	bottom: .5em;
+	right: .5em;
+	opacity: 0.7;
+	cursor: pointer;
+    background: #333;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    width:1em;
+    height:1em;
+}
+
+#topcontrol a {
+	color:#fff;
+}
+
+
+#navigation a {
+    color:#fff;
+}
+ul#navigation li {
+    list-style: none;
+    display: inline;
+    margin: 0.4em; padding: 0;
+}
+
 
 #header_wrap {
   background: #212121;
@@ -302,7 +330,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 30px 10px 10px 10px;
 }
 
 #project_title {
@@ -314,7 +342,7 @@ Full-Width Styles
 }
 
 #project_tagline {
-  color: #fff;
+  color: #f09030;
   font-size: 24px;
   font-weight: 300;
   background: none;
@@ -360,20 +388,53 @@ Full-Width Styles
   background: url(../images/sprite_download.png) no-repeat top right;
 }
 
-#main_content_wrap {
+.main_content_wrap {
   background: #f2f2f2;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #111;
 }
 
-#main_content {
-  padding-top: 40px;
+.main_content {
+  padding-top: 20px;
 }
 
 #footer_wrap {
   background: #212121;
 }
 
+.demos {
+  background: #9797b7;
+  background: -moz-linear-gradient(top, #a7a7c7, #9797b7);
+  background: -webkit-linear-gradient(top, #a7a7c7, #9797b7);
+  background: -ms-linear-gradient(top, #a7a7c7, #9797b7);
+  background: -o-linear-gradient(top, #a7a7c7, #9797b7);
+  background: linear-gradient(top, #a7a7c7, #9797b7);
+}
+
+.sources {
+  background: #a7c7a7;
+  background: -moz-linear-gradient(top, #a7c7a7, #97b797);
+  background: -webkit-linear-gradient(top, #a7c7a7, #97b797);
+  background: -ms-linear-gradient(top, #a7c7a7, #97b797);
+  background: -o-linear-gradient(top, #a7c7a7, #97b797);
+  background: linear-gradient(top, #a7c7a7, #97b797);
+}
+
+.publications {
+  background: #c7a7c7;
+  background: -moz-linear-gradient(top, #c7a7c7, #b797b7);
+  background: -webkit-linear-gradient(top, #c7a7c7, #b797b7);
+  background: -ms-linear-gradient(top, #c7a7c7, #b797b7);
+  background: -o-linear-gradient(top, #c7a7c7, #b797b7);
+  background: linear-gradient(top, #c7a7c7, #b797b7);
+}
+
+.contact {
+  background: #c7c7a7;
+  background: -moz-linear-gradient(top, #c7c7a7, #b7b797);
+  background: -webkit-linear-gradient(top, #c7c7a7, #b7b797);
+  background: -ms-linear-gradient(top, #c7c7a7, #b7b797);
+  background: -o-linear-gradient(top, #c7c7a7, #b7b797);
+  background: linear-gradient(top, #c7c7a7, #b7b797);
+}
 
 
 /*******************************************************************************
