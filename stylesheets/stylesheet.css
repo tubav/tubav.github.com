@@ -255,10 +255,12 @@ form {
   padding: 20px;
 }
 
+/*
 img {
   width: 100%;
   max-width: 100%;
 }
+*/
 
 /*******************************************************************************
 Full-Width Styles
@@ -266,6 +268,7 @@ Full-Width Styles
 
 .outer {
   width: 100%;
+  border-top:1px solid black;
 }
 
 .inner {
@@ -310,15 +313,34 @@ Full-Width Styles
 }
 
 
-#navigation a {
+.horizontal a {
     color:#fff;
 }
-ul#navigation li {
+ul.horizontal li {
     list-style: none;
     display: inline;
     margin: 0.4em; padding: 0;
 }
 
+.paper {
+	margin-top:2em;
+}
+
+.screencast img {
+	height:10em;
+	border: 10px solid black;
+	margin:0;
+	padding:0;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    
+    box-shadow:  2px 2px 5px 2px rgba(0, 0, 0, .5);
+    -webkit-box-shadow:  2px 2px 5px 2px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .5);
+    -o-box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .5);
+    -ms-box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .5);
+}
 
 #header_wrap {
   background: #212121;
