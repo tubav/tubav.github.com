@@ -401,16 +401,16 @@ ul#navigation li {
 }
 
 .news {
-  background: #9797b7;
-  background: -moz-linear-gradient(top, #a7a7c7, #9797b7);
+  background: #a7c7c7;
+  background: -moz-linear-gradient(top, #a7c7c7, #97b7b7);
   background: -webkit-linear-gradient(top, #a7c7c7, #97b7b7);
-  background: -ms-linear-gradient(top, #a7a7c7, #9797b7);
-  background: -o-linear-gradient(top, #a7a7c7, #9797b7);
-  background: linear-gradient(top, #a7a7c7, #9797b7);
+  background: -ms-linear-gradient(top, #a7c7c7, #97b7b7);
+  background: -o-linear-gradient(top, #a7c7c7, #97b7b7);
+  background: linear-gradient(top, #a7c7c7, #97b7b7);
 }
 
 .demos {
-  background: #9797b7;
+  background: #a7a7c7;
   background: -moz-linear-gradient(top, #a7a7c7, #9797b7);
   background: -webkit-linear-gradient(top, #a7a7c7, #9797b7);
   background: -ms-linear-gradient(top, #a7a7c7, #9797b7);
