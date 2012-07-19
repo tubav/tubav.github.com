@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>de.fhg.fokus.ngni.broker</groupId>
+  <artifactId>broker.openpe.pem1_input_utils</artifactId>
+  <versioning>
+    <latest>1.1-SNAPSHOT</latest>
+    <versions>
+      <version>1.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20120719103256</lastUpdated>
+  </versioning>
+</metadata>

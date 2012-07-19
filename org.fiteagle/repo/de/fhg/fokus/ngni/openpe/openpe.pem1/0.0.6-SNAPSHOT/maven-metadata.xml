@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>de.fhg.fokus.ngni.openpe</groupId>
+  <artifactId>openpe.pem1</artifactId>
+  <version>0.0.6-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20120619.084400</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20120619084400</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.6-20120619.084400-1</value>
+        <updated>20120619084400</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.6-20120619.084400-1</value>
+        <updated>20120619084400</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
