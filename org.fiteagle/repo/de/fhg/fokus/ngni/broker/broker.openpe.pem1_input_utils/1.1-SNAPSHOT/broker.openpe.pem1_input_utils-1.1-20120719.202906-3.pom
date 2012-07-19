@@ -1,0 +1,67 @@
+<!--
+    Copyright (C) 2011 FhG FOKUS, Institute for Open Communication Systems
+   
+    This file is part of the Broker
+   
+    The FOKUS Broker is proprietary software that is licensed
+    under the FhG FOKUS "SOURCE CODE LICENSE".
+    You should have received a copy of the license along with this
+    program; if not, write to Fraunhofer Institute FOKUS, Kaiserin-
+    Augusta Allee 31, 10589 Berlin, GERMANY
+   
+    This software is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+    It has to be noted that this software is not intended to become
+    or act as a product in a commercial context. It is a PROTOTYPE
+    IMPLEMENTATION for NGN technology testing and application
+    development for research purposes, typically performed in
+    testbeds. See the attached license for more details.
+   
+    For a license to use this software under conditions
+    other than those described here, please contact Fraunhofer FOKUS
+    via e-mail at the following address:
+    	info@fokus.fraunhofer.de
+ -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>broker.openpe</artifactId>
+    <groupId>de.fhg.fokus.ngni.broker</groupId>
+    <version>1.1-SNAPSHOT</version>
+  </parent>
+  <groupId>de.fhg.fokus.ngni.broker</groupId>
+  <artifactId>broker.openpe.pem1_input_utils</artifactId>
+  <version>1.1-SNAPSHOT</version>
+  <name>broker.openpe.pem1_input_utils</name>
+
+    <properties> 
+    	<bundle.symbolicName>${pom.artifactId}</bundle.symbolicName>
+    	<bundle.namespace>de.fhg.fokus.ngni.broker.openpe.pem1.input.utils</bundle.namespace>
+  	</properties>
+  
+   <build>
+  	<plugins>
+  		<plugin>
+			<groupId>org.jvnet.jaxb2.maven2</groupId>
+			<artifactId>maven-jaxb2-plugin</artifactId>
+			<version>0.7.4</version>
+			<executions>
+				<execution>
+					<goals>
+						<goal>generate</goal>
+					</goals>
+				</execution>
+			</executions>
+			<configuration>
+				<schemaDirectory>${project.basedir}/src/xsd</schemaDirectory>
+				<generateDirectory>${project.basedir}/src/main/java</generateDirectory>
+				<schemaIncludes>
+					<include>PEM_1_FOKUSSOAP*.xsd</include>
+				</schemaIncludes>
+			</configuration>
+		</plugin>			
+  	</plugins>
+  </build>
+  
+</project>
