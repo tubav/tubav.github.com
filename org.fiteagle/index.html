@@ -26,7 +26,7 @@
         <header class="inner">
           <ul class="horizontal">
     <li><a href="#about">about</a></li>
-    <li><a href="#news">news</a></li>
+<!--    <li><a href="#news">news</a></li>-->
     <li><a href="#demos">demo</a></li>
     <li><a href="#sources">development</a></li>
     <li><a href="#publications">publications</a></li>
@@ -41,6 +41,7 @@
 
     <!-- MAIN CONTENT -->
     <div class="main_content_wrap outer">
+    <div class="section">
       <section id="about" class="main_content inner ">
         <h3>About FITeagle</h3>
 <p>FITeagle is an extensible federation framework that holds
@@ -71,51 +72,63 @@ labs form a federation of testbeds.</p>
 
 </section>
 </div>
-
-    <div class="main_content_wrap outer news">
+<!--
+    <div class="section">
       <section id="news" class="main_content inner ">
         <h3>News (also via RSS)</h3>
 <p>to be done</p>
 </section>
 </div>
-
-    <div class="main_content_wrap outer demos">
+-->
+    <div class="section">
       <section id="demos" class="main_content inner">
 <h3>Demonstrations</h3>
 <h4>Screenshots</h4>
 
-<ul class="horizontal">
-<li><a title="FITeagle VCT Tool (Controller)" class="various screenshot" href="images/screenshot_vcttool.png"><img src="images/screenshot_vcttool.png" alt="vcttool" /></a>
+<ul class="horizontal block">
+<li>FITeagle VCT Tool (Controller)<br/><a title="FITeagle VCT Tool (Controller)" class="various screenshot" href="images/screenshot_vcttool.png"><img src="images/screenshot_vcttool.png" alt="vcttool" /></a>
 </ul>
 
 <h4>Screencasts</h4>
-<ul class="horizontal">
-<li><a title="OpenLab WP1 Demo 2012" class="screencast iframe various" href="http://www.youtube.com/embed/DUQpgGoeQ2o?autoplay=1"><img src="images/demo_ol_wp1_2012_6.png" alt="demo_ol_wp1_2012_6" /></a>
-<li><a title="OpenLab WP2 Demo 2012" class="screencast iframe various" href="http://www.youtube.com/embed/I_D_ypD8T_0?autoplay=1"><img src="images/demo_ol_wp2_2012_6.png" alt="demo_ol_wp2_2012_6" /></a>
-<li><a title="FIRE Teagle: How to access VCT Tool" class="screencast iframe various" href="http://www.youtube.com/embed/FGBgssUm-2w?autoplay=1"><img src="images/fire_teagle_how_to_use.png" alt="fire_teagle_how_to_use" /></a>
-<li><a title="FIRE Teagle: How to use VCT Tool" class="screencast iframe various" href="http://www.youtube.com/embed/oP6VTeiABXk?autoplay=1"><img src="images/fire_teagle_how_to_use.png" alt="fire_teagle_how_to_use" /></a>
-<li><a title="FIRE Teagle: How to use Teagle" class="screencast iframe various" href="http://www.youtube.com/embed/gXcKaODtgkU?autoplay=1"><img src="images/fire_teagle_how_to_use.png" alt="fire_teagle_how_to_use" /></a>
+<ul class="horizontal block">
+<li>OpenLab WP1 Demo 2012<br /><a title="OpenLab WP1 Demo 2012" class="screencast iframe various" href="http://www.youtube.com/embed/DUQpgGoeQ2o?autoplay=1"><img src="images/demo_ol_wp1_2012_6.png" alt="demo_ol_wp1_2012_6" /></a>
+<li>OpenLab WP2 Demo 2012<br /><a title="OpenLab WP2 Demo 2012" class="screencast iframe various" href="http://www.youtube.com/embed/I_D_ypD8T_0?autoplay=1"><img src="images/demo_ol_wp2_2012_6.png" alt="demo_ol_wp2_2012_6" /></a>
+<li>FIRE Teagle: How to access VCT Tool<br /><a title="FIRE Teagle: How to access VCT Tool" class="screencast iframe various" href="http://www.youtube.com/embed/FGBgssUm-2w?autoplay=1"><img src="images/fire_teagle_how_to_use.png" alt="fire_teagle_how_to_use" /></a>
+<li>FIRE Teagle: How to use VCT Tool<br /><a title="FIRE Teagle: How to use VCT Tool" class="screencast iframe various" href="http://www.youtube.com/embed/oP6VTeiABXk?autoplay=1"><img src="images/fire_teagle_how_to_use.png" alt="fire_teagle_how_to_use" /></a>
+<li>FIRE Teagle: How to use Teagle<br /><a title="FIRE Teagle: How to use Teagle" class="screencast iframe various" href="http://www.youtube.com/embed/gXcKaODtgkU?autoplay=1"><img src="images/fire_teagle_how_to_use.png" alt="fire_teagle_how_to_use" /></a>
 </ul>
+<!--
 <h4>Demo Access</h4>
 <p>to be done</p>
+-->
 </section>
 </div>
     
-    <div class="main_content_wrap outer sources">
+    <div class="section">
       <section id="sources" class="main_content inner">
 <h3>Development</h3>
-<pre><code>$ some example code
+<pre><code>
+git clone https://github.com/tubav/fiteagle.git
+cd fiteagle
+mvn -N site
+open target/site/index.html
 </code></pre>
 <h4>Sources</h4>
-<p>to be done</p>
+<pre><code>
+<a href="https://github.com/tubav/fiteagle">https://github.com/tubav/fiteagle</a>
+</code></pre>
 <h4>Download</h4>
-<p>to be done</p>
+<pre><code>
+<a href="https://github.com/tubav/fiteagle/downloads">https://github.com/tubav/fiteagle/downloads</a>
+</code></pre>
 <h4>Issue Tracker</h4>
-<p>to be done</p>
+<pre><code>
+<a href="https://github.com/tubav/fiteagle/issues">https://github.com/tubav/fiteagle/issues</a>
+</code></pre>
 </section>
 </div>
 
-    <div class="main_content_wrap outer publications">
+    <div class="section">
       <section id="publications" class="main_content inner">
 
 <h3>Publications</h3>
@@ -263,21 +276,23 @@ labs form a federation of testbeds.</p>
 </section>
 </div>
 
-    <div class="main_content_wrap outer contact">
+    <div class="section">
       <section id="contact" class="main_content inner">
 
 <h3>Support or Contact</h3>
+<!--
 <h4>Mailing List</h4>
 <p>to be done (Google / Twitter)</p>
 <h4>Team</h4>
-<p>to be done</p>
+-->
+<p>A mailing list is currently under development. Please contact the Team at <a href="http://av.tu-berlin.de">TU Berlin</a> via <a href="mailto:fi@av.tu-berlin.de">fi(at)av.tu-berlin.de</a> for now.</p>
       </section>
     </div>
-
+</div>
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p>Empty <a href="http://av.tu-berlin.de">space</a></p>
+        <p>An <a href="http://av.tu-berlin.de">TUB/AV</a> product.</p>
       </footer>
     </div>
 
