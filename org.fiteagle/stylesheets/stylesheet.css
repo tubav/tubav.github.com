@@ -1,5 +1,5 @@
 /*******************************************************************************
-Slate Theme for Github Pages
+late Theme for Github Pages
 by Jason Costello, @jsncostello
 *******************************************************************************/
 
@@ -112,7 +112,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #555;
+  color: #f09030;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -128,8 +128,8 @@ a {
 }
 
 .main_content a:hover {
-  color: #0069ba;
-  text-shadow: #0090ff 0px 0px 2px;
+  color: #f09030;
+  text-shadow: #d07010 0px 0px 2px;
 }
 
 a:hover {
@@ -382,13 +382,13 @@ ul.block li {
   margin: 0;
   color: #fff;
   font-size: 42px;
-  font-weight: 700;
+  font-weight: normal;
   text-shadow: #111 0px 0px 10px;
 }
 
 #project_tagline {
   color: #f09030;
-  font-size: 24px;
+  font-size: 18px !important;
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
