@@ -343,8 +343,13 @@ ul.block li {
 	margin-top:2em;
 }
 
+#fancybox-img {
+    max-width: 100%;
+}
+
 .screenshot img {
  width:30%;
+ height:30%;
  border:1px solid black;
  border-radius: .3em;
  background:#fff;
