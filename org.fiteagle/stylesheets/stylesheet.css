@@ -178,10 +178,15 @@ pre, code {
 
 pre {
   width: 100%;
-  padding: 10px;
+  padding: 0.7em;
   box-shadow: 0 0 10px rgba(0,0,0,.2);
   overflow: auto;
 }
+
+pre {
+    margin-bottom:2em;
+}
+
 
 code {
   padding: 3px;
@@ -561,5 +566,4 @@ Small Device Styles
     max-width: 480px;
     font-size: 11px;
   }
-
 }
