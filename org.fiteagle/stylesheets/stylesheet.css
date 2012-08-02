@@ -281,6 +281,10 @@ Full-Width Styles
   background: linear-gradient(top, #f09030, #d07010);
 }
 
+.outer ul, ol, dl {
+  margin-bottom: 0;
+}
+
 .inner {
   position: relative;
   max-width: 640px;
