@@ -340,8 +340,9 @@ Full-Width Styles
 
 ul.horizontal li {
     list-style: none;
-    display: inline;
+    display: inline-block;
     margin: 0.4em; padding: 0;
+    text-align:center;
 }
 
 ul.block li {
